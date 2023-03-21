@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Details of Individuals</title>
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Add CSS for styling the header, footer, table and the profile cards -->
+  <style>
+
+    /* Style the header */
+    .header {
+      padding: 60px;
+      text-align: center;
+      background: #1abc9c;
+      color: white;
+      font-size: 30px;
+    }
+
+    /* Style the footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+    }
+
+    /* Style the table */
+    table {
+        margin-right : 20%;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    /* Style the table cells */
+    td {
+   
+      border: 1px solid #ddd;
+      padding: 15px;
+    }
+
+    /* Style the table headings */
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+     /* Style the profile cards */
+     .card {
+        display:inline;
+        border-radius: 20px;
+       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     }
+ 
+     /* Style the card image */
+     .card img {
+        height:150px;
+     }
+ 
+     /* Style the card content */
+     .card h1,p {
+        margin:10px;
+     }
+ 
+     /* Style the social media icons */
+     .card a {
+        text-decoration:none;
+        font-size:22px;
+        color:black;
+     }
+ 
+     /* Style the contact button */
+     button {
+        border:none;
+        outline:none;
+        display:inline-block;
+        padding:8px;  
+        color:white;  
+        background-color:#000;  
+        text-align:center;  
+        cursor:pointer;  
+     }
+     button:hover{
+        background-color : green;
+     }
+   </style>
+</head>
+<body>
+
+   <!-- Create a header with a name of website -->
+   <div class="header">
+       <h1>Details of Individuals</h1>
+       <p>A website that shows some profiles of people</p>
+   </div>
+
+   <!-- Create a table with three columns -->
+   <table>
+     <!-- Add table headings -->
+     <!-- <tr>
+       <th>Profile</th>
+       <th>Labour Charges</th>
+       <th>Contact</th>
+     </tr> -->
+
+     <!-- Add table rows with profile cards, names and contact buttons -->
+     <tr>
+       <!-- Create a profile card for John Doe -->
+       <td>
+         <div class="card">
+           <img src="https://th.bing.com/th/id/R.c235b86951596c12e183e9aaec7f56ab?rik=%2b1SnbKgQEeRCNw&riu=http%3a%2f%2famerica.aljazeera.com%2fcontent%2fajam%2farticles%2f2015%2f5%2f31%2findias-independent-farmers-embrace-organic%2fjcr%3acontent%2fmainpar%2ftextimage_1%2fimage.adapt.990.high.organic_farming_india_amarjit_sharma.1433175646384.jpg&ehk=SoR6EvXgcWTR5fMQBL0lJVhA%2bKiHn5xRtDAcSs2SPK4%3d&risl=&pid=ImgRaw&r=0" alt="John" style="width:80%;">
+           <h1 >Jairam kishan</h1>
+           <p class="title">Ranking : 8/10</p>
+           <p>Exp : 10yrs</p>
+           <!-- Add social media icons -->
+         </div>
+       </td>
+
+       <!-- Add charges-->
+       <td>
+        Rs.200/day
+        <br>
+        <button>Hire</button>
+       </td>
+
+     </tr>
+
+     <tr>
+        <!-- Create a profile card for John Doe -->
+        <td>
+          <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.NxoI1dAdgqhSyiQqzcvGHgHaEX?pid=ImgDet&w=172&h=101&c=7&dpr=1.7" alt="John" style="width:80%">
+            <h1>Gopal kumar</h1>
+            <p class="title">Rating : 9/10</p>
+            <p>Exp : 15yrs</p>
+            <!-- Add social media icons -->
+          </div>
+        </td>
+ 
+        <!-- Add charges-->
+        <td style = "width:60%">
+         Rs.200/day
+         <br>
+         <button>Hire</button>
+        </td>
+ 
+      </tr>
+
+      <tr>
+        <!-- Create a profile card for John Doe -->
+        <td>
+          <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.m8p8Gv_2c_mWhCBV-iDMyQAAAA?pid=ImgDet&w=172&h=96&c=7&dpr=1.7" alt="Bholaram dhupia" style="width:80%">
+            <h1>Bholaram dhupia</h1>
+            <p class="title">Rating : 9/10</p>
+            <p>Exp : 13yrs</p>
+            <!-- Add social media icons -->
+          </div>
+        </td>
+ 
+        <!-- Add charges-->
+        <td style = "width:60%">
+         Rs.150/day
+         <br>
+         <button>Hire</button>
+        </td>
+ 
+      </tr>
+
+
+</table>
+
+<!-- Repeat for other individuals -->
+<div class="footer">
+    <p>This website is created by codeManiacs using HTML and CSS.</p>
+    <p>For more information, please contact codeManiacs@farm.com</p>
+ </div>
+ 
+ </body>
+ 
+ </html>
+<!-- Create a footer with some information -->
